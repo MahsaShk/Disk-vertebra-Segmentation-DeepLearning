@@ -11,18 +11,24 @@ Keywords: Spine, Inter-vertebral disks, Segmentation, Residual networks, Fully c
 We used two publicly available databases. 
 
 The **first** one is available at http://dx.doi.org/10.5281/zenodo.22304. 
+
 It includes 23 subjects with T2-w turbo spin-echo 3D MR images of the lower spine acquired with a 1.5T Siemens scanner and resampled to a voxel sizeof2×1.25×1.25mm3. For  each  vertebral  body  from T11  to  L5,  a  ground  truth  manual  segmentation  is available online.
 
 The **second** dataset is available at SpineWeb (http://spineweb.digitalimaginggroup.ca/spineweb/index.php?n=Main.Datasets).
+
 This dataset includes T2-w MRI and CT scans for 20 cases with   different   dimensions,   voxel   spacing,   and   intensity ranges. In our study, one subject has to be removed (case 16), for which no lower spine scan was available (only cervical MRI was available). 
 
 For both datasets, an expert radiologist has performed manual annotations on vertebral body and pedicles.  Because cases were anonymized, no information on the presence of pathology was available.
 
 # Method
 
-First, vertabral bodies (and pedicles) are segmented using a Residual network.
-Second, 3D surfaces are extracted from each vertebral body. 
-Third, each intervertebral disc mesh is modelled based on the endplates of its lower and superior vertebrae. 
+First, vertabral bodies (and pedicles) are segmented using a Residual network (Figure 1).
+
+Second, 3D surfaces are extracted from each vertebral body (Figure 2). 
+
+Third, each intervertebral disc mesh is modelled based on the endplates of its lower and superior vertebrae (Figure 3). 
+
+![Screenshot](pics/VAE-MLP-white.png "VAE-MLP architecture")
 
 # Citation
 If you would like to use cite our work, please cite the following paper.
