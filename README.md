@@ -20,7 +20,7 @@ This dataset includes T2-w MRI and CT scans for 20 cases with   different   dime
 
 For both datasets, an expert radiologist has performed manual annotations on vertebral body and pedicles.  Because cases were anonymized, no information on the presence of pathology was available.
 
-# Method
+# Method overview in simple words
 
 **First,** vertabral bodies (and pedicles) are segmented using a Residual network and accuracy was compared to 2D convolutional neural network and 3D convolutional neural networks (Figure 1).
 
