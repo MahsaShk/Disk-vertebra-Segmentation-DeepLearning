@@ -35,7 +35,11 @@ For both datasets, an expert radiologist has performed manual annotations on ver
 
 ![Screenshot](pics/Extracting-the-intervertebral-disc-mesh-a-Top-vertebra-model-b-Computed-facet_W640.jpg )
 
+
+
 **Figure 2.**  Extracting the intervertebral disc mesh. a) Top vertebra model; b) Computed facet normals; c) Clipped endplate and computed gaussian curvatures; d) Final clipped endplate; e) Disc surface reconstruction between the top and lower clipped endplates.
+
+
 
 ![Screenshot](pics/Visual-results-of-intervertebral-disc-modelling-from-selected-3-cases-of-the-dataset_W640.jpg )
 
