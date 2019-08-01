@@ -18,7 +18,27 @@ This dataset includes T2-w MRI and CT scans for 20 cases with   different   dime
 
 For both datasets, an expert radiologist has performed manual annotations on vertebral body and pedicles.  Because cases were anonymized, no information on the presence of pathology was available.
 
+# Method
 
+First, vertabral bodies (and pedicles) are segmented using a Residual network.
+Second, 3D surfaces are extracted from each vertebral body. 
+Third, each intervertebral disc mesh is modelled based on the endplates of its lower and superior vertebrae. 
+
+# Citation
+If you would like to use cite our work, please cite the following paper.
+
+```
+@INPROCEEDINGS{8363768, 
+author={M. {Shakeri} and I. {Nahle} and E. {Finley} and S. {Kadoury}}, 
+booktitle={2018 IEEE 15th International Symposium on Biomedical Imaging (ISBI 2018)}, 
+title={Inter-vertebral disk modelling from pairs of segmented vertebral models using trainable pre-processing networks}, 
+year={2018}, 
+volume={}, 
+number={}, 
+pages={1122-1125},  
+doi={10.1109/ISBI.2018.8363768}, 
+ISSN={1945-8452}, 
+month={April},}
 
 
 
