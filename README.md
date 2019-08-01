@@ -28,7 +28,7 @@ Second, 3D surfaces are extracted from each vertebral body (Figure 2).
 
 Third, each intervertebral disc mesh is modelled based on the endplates of its lower and superior vertebrae (Figure 3). 
 
-![Screenshot](pics/A-visual-segmentation-result-on-one-case-a-Original-T2-MRI-bground-truth-c_W640.png "VAE-MLP architecture")
+![Screenshot](pics/A-visual-segmentation-result-on-one-case-a-Original-T2-MRI-bground-truth-c_W640.jpg "VAE-MLP architecture")
 Figure 1.  A visual segmentation result on one case. a) Original T2 MRI b)ground truth; c) FCN+ResNet+CRF d)FCN+ResNet+CRF overlaid on the ground truth.
 
 # Citation
