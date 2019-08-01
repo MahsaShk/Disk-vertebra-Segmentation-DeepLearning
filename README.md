@@ -1,4 +1,4 @@
-# SpineSegmentation
+# Disk and vertebral segmentation using deep Residual networks
 Inter-vertebral disk modelling Using pre-processing networks based on deep ResUNet
 
 
