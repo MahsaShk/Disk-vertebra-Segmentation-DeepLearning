@@ -22,19 +22,27 @@ For both datasets, an expert radiologist has performed manual annotations on ver
 
 # Method
 
-First, vertabral bodies (and pedicles) are segmented using a Residual network and accuracy was compared to 2D convolutional neural network and 3D convolutional neural networks (Figure 1).
+**First,** vertabral bodies (and pedicles) are segmented using a Residual network and accuracy was compared to 2D convolutional neural network and 3D convolutional neural networks (Figure 1).
 
-Second, 3D surfaces are extracted from each vertebral body (Figure 2). 
+**Second,** 3D surfaces are extracted from each vertebral body. 
 
-Third, each intervertebral disc mesh is modelled based on the endplates of its lower and superior vertebrae (Figure 3). 
+**Third,** each intervertebral disc mesh is modelled based on the endplates of its lower and superior vertebrae (Figure 2). 
 
 
-![Screenshot](pics/A-visual-segmentation-result-on-one-case-a-Original-T2-MRI-bground-truth-c_W640.jpg "VAE-MLP architecture")
+![Screenshot](pics/A-visual-segmentation-result-on-one-case-a-Original-T2-MRI-bground-truth-c_W640.jpg )
 
 **Figure 1.**  A visual segmentation result on one case. a) Original T2 MRI b)ground truth; c) FCN+ResNet+CRF d)FCN+ResNet+CRF overlaid on the ground truth.
 
+![Screenshot](pics/Extracting-the-intervertebral-disc-mesh-a-Top-vertebra-model-b-Computed-facet_W640.jpg )
+
+**Figure 2.**  Extracting the intervertebral disc mesh. a) Top vertebra model; b) Computed facet normals; c) Clipped endplate and computed gaussian curvatures; d) Final clipped endplate; e) Disc surface reconstruction between the top and lower clipped endplates.
+
+![Screenshot](pics/Visual-results-of-intervertebral-disc-modelling-from-selected-3-cases-of-the-dataset_W640.jpg )
+
+**Figure 3.**  Visual results of intervertebral disc modelling from selected 3 cases of the dataset.
+
 # Citation
-If you would like to use cite our work, please cite the following paper.
+If you would like to use our work, please cite the following paper.
 
 ```
 @INPROCEEDINGS{8363768, 
